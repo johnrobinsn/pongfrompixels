@@ -4,7 +4,7 @@ import argparse
 description = "Karpathy's pg-pong"
 
 parser = argparse.ArgumentParser(description=description)
-parser.add_argument('--learning_rate', type=float, default=3e-4, metavar='G',
+parser.add_argument('--learning_rate', type=float, default=3e-4,
                     help='learning rate (default: 3e-4)')
 parser.add_argument('--render', action='store_true', default=False,
                     help='render the environment')
@@ -13,8 +13,6 @@ parser.add_argument('--resume', action='store_true', default=False,
 parser.add_argument('--demo', action='store_true', default=False,
                     help='demo pong play using best.p')
 args = parser.parse_args()
-
-print('here')
 
 from os import lseek
 import numpy as np
@@ -33,9 +31,6 @@ except ImportError:
   print('Logging to tensorboard disabled')
   def log_reward(episode,r):
     pass # do nothing
-
-
-
 
 # hyperparameters
 H = 200 # number of hidden layer neurons

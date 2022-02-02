@@ -1,13 +1,12 @@
 # pongfrompixels
-This repository contains the code from Andrej Karpathy's article, "Deep Reinforcement Learning: Pong from Pixels" the code linked from that article is a bit dated having been written for Python 2.  This repo contains Andrej's code updated to support Python 3 and some support for tensorboard logging.  All credit goes to him for the code.
+This repository contains updated code for Andrej Karpathy's article, "Deep Reinforcement Learning: Pong from Pixels" the code linked from that article is a bit dated having been written for Python 2.  This repo contains Andrej's code updated to support Python 3 and some support for tensorboard logging.  All credit goes to him for the code.
 
 Here is the [companion blog article](https://www.storminthecastle.com/pong_from_pixels) for this repostory.
-
 
 ## Setup Environment
 I recommend that you use a python version manager.  I use [conda](https://docs.conda.io/en/latest/).
 
-I used python 3.7
+Usong Python 3.7 and Conda
 
 ```
 conda create -n pongfrompixels python=3.7
@@ -36,7 +35,7 @@ Note: *The file, 'save.p', will be overwritten periodically so if you get a real
 python pg_pong.py
 ```
 
-If you'd like to see the pong game rendered in a window while you train use the render option.
+If you'd like to see the pong game rendered in a window while you train use the render option.  This will slow down training a bit but is still fun to watch (at least for a bit).
 
 ```
 python pg_pong.py --render
