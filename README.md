@@ -1,7 +1,7 @@
 # pongfrompixels
 This repository contains updated code for Andrej Karpathy's article, "Deep Reinforcement Learning: Pong from Pixels" the code linked from that article is a bit dated having been written for Python 2.  This repo contains Andrej's code updated to support Python 3 and some support for tensorboard logging.  All credit goes to him for the code.
 
-Here is the [companion blog article](https://www.storminthecastle.com/pong_from_pixels) for this repostory.
+Here is the [companion blog article](https://www.storminthecastle.com/posts/pong_from_pixels/) for this repostory.
 
 ## Setup Environment
 I recommend that you use a python version manager.  I use [conda](https://docs.conda.io/en/latest/).
