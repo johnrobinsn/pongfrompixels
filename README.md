@@ -6,7 +6,7 @@ Here is the [companion blog article](https://www.storminthecastle.com/posts/pong
 ## Setup Environment
 I recommend that you use a python version manager.  I use [conda](https://docs.conda.io/en/latest/).
 
-Usong Python 3.7 and Conda
+Using Python 3.7 and Conda
 
 ```
 conda create -n pongfrompixels python=3.7
